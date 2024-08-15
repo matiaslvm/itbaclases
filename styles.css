@@ -1,0 +1,34 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+p {
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    border-radius: 10%;
+    background-color: bisque;
+    background-position: 0%;
+}
+
+.p {
+    background-color: red;
+}
+
+#segundo {
+    background-color: royalblue;
+    font-display: 1000;
+    font-weight: 600;
+}
+
+#tercero {
+    background-color: blueviolet;
+}
+
+.cuarto {
+    background-color: yellowgreen;
+}
