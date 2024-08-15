@@ -6,7 +6,7 @@ h1 {
     background-color: aqua;
 }
 
-p {
+#prueba {
     font-style: oblique;
     font-size: large;
     color: blue;
@@ -29,6 +29,54 @@ p {
     background-color: blueviolet;
 }
 
+/* Prueba anashei, Con el class, en el css se decreta .cuarto*/ 
+
 .cuarto {
     background-color: yellowgreen;
+}
+
+.contenedor {
+    font-weight: bold;
+    background-color: brown;
+    border: 3px solid;
+    padding: 10px;
+    margin: 20px;
+}
+
+hr {
+    color: black;
+}
+
+/* Utilizar estas unidades si quiero hacer algo responsibe 
+    padding: 5px;
+    margin: 5em;
+*/
+.contenedorv2 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5em;
+    width: 20%;
+}
+
+/* Los media query sirven para hacer responsive la pagina,
+los max-width son los anchos de la pantalla, se pueden poner varios para diferentes pantallas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1920px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
