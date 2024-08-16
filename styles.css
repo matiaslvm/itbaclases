@@ -66,7 +66,7 @@ hr {
 /* Los media query sirven para hacer responsive la pagina,
 los max-width son los anchos de la pantalla, se pueden poner varios para diferentes pantallas */
 @media (max-width: 768px) {
-    h1 {
+    body {
         font-size: 24px;
     }
 
@@ -76,7 +76,7 @@ los max-width son los anchos de la pantalla, se pueden poner varios para diferen
 }
 
 @media (max-width: 1920px) {
-    h1 {
+    body {
         font-size: 24px;
     }
 
