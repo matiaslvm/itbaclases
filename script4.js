@@ -12,7 +12,7 @@ console.log(resta2);
 console.log(mul2);
 console.log(div2);
 console.log(mod2);
-console.log(incr2); */ 
+console.log(incr2); 
 
 let andlogico = true && false;
 let or = true || false;
@@ -38,10 +38,10 @@ if (edad >= edadMinima) {
 else {
     console.log("no permitido")
 }
-let mayorDeEdad = edad >= edadMinima;
-{/*<button hidden={!mayorDeEdad}></button> */}
+let mayorDeEdad = edad >= edadMinima; */
+{/*<button hidden={!mayorDeEdad}></button> */} 
 
-function example() {
+/* function example() {
     var variable = 15;
     if (true) {
         var variable = 150;
@@ -56,12 +56,39 @@ function example2() {
         let variable = 20;
         console.log(variable);
     }
-    console.log(variable);
+    console.log(variable); 
 }
 example();
-example2();
+example2(); */
+
+/* Se usa para meter alertaaas
 
 // prompt, alert, confirm son cosas de JS, no hace falta agregarlas externamente
 let userAge = prompt("Ingrese su edad: ");
-console.log({userAge});
-// console.log("Su edad es " + userAge)
+// console.log({userAge});
+console.log("Su edad es " + userAge) 
+
+let al = alert("Alerta roja!") 
+console.log(al)
+
+let conf = confirm("estas seguro?") 
+console.log(conf); */
+
+for(let i = 0; i < 10; i++) {
+    console.log(i)
+}   
+let i = 0;
+while(i<10) {
+    console.log(i);
+    i++;
+} 
+
+let sum = function(a, b) {
+    return a + b;
+}
+console.log(5*sum)
+
+let resta3 = (a, b) => {
+    return a - b;
+}
+console.log(resta3(50, 5));
